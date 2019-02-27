@@ -39,3 +39,8 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     background: transparent;
     vertical-align: baseline;
 }
+a {
+    outline: none;
+    text-decoration: none;
+    color: #db251d;
+}
