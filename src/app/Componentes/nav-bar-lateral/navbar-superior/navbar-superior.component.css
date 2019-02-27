@@ -1,0 +1,41 @@
+@media only screen and (min-width: 992px) {
+  .c-block-1__box-1 {
+    position: fixed;
+    z-index: 10;
+    width: 300px;
+    background: #fff;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .c-block-1__logo {
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .c-block-1__box-1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -33px;
+    width: 100%;
+    height: 34px;
+    background: url(../../../../assets/images/bg-c-block-1__box-1.c9edf1b4d3.svg) no-repeat;
+    background-size: 101% 34px;
+  }
+}
+.c-nav-1, .c-nav-1--movil {
+    display: none;
+    padding-bottom: 5px;
+}
+
+.c-nav-1--movil>li, .c-nav-1>li {
+    position: relative;
+    padding: 0 30px;
+}
+@media only screen and (min-width: 992px){
+	.c-nav-1, .c-nav-1--movil {
+		display: block;
+	}
+}
