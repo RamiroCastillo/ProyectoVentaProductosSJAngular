@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?6cskvh');
+  src:  url('fonts/icomoon.eot?6cskvh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6cskvh') format('truetype'),
+    url('fonts/icomoon.woff?6cskvh') format('woff'),
+    url('fonts/icomoon.svg?6cskvh#icomoon') format('svg');
+}
+
+
+[class*=" icon-"]:after, [class*=" icon-"]:before, [class^=icon-]:after, [class^=icon-]:before{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location-shopping:before {
+  content: "\e902";
+}
+.icon-receipt:before {
+  content: "\e900";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-gavel:before {
+  content: "\f0e3";
+}
+.icon-legal:before {
+  content: "\f0e3";
+}
+.icon-home:before {
+  content: "\e901";
+}
+.icon-price-tags:before {
+  content: "\e936";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-rss:before {
+  content: "\ea9b";
+}
