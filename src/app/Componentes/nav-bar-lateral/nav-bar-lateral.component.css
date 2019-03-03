@@ -1,9 +1,0 @@
-@media only screen and (min-width: 992px) {
-  .c-block-1 {
-    position: relative;
-    z-index: 30;
-    width: 300px;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, .15);
-    background: #db251d url(../../../assets/images/bg-ornaments.11cbd130a0.svg) top;
-  }
-}
