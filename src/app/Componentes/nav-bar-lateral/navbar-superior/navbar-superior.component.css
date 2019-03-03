@@ -1,4 +1,21 @@
-
+a {
+  outline: none;
+  text-decoration: none;
+  color: #db251d;
+}
+.c-nav-1--movil>li:before, .c-nav-1>li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #f1f2f3;
+  transition: all .3s ease;
+}
+.c-nav-1--movil>li:hover:not(.active):before, .c-nav-1>li:hover:not(.active):before {
+  width: 100%;
+}
 .c-nav-1, .c-nav-1--movil {
     display: none;
     padding-bottom: 5px;
@@ -25,6 +42,7 @@
     background: #f1f2f3;
     transition: all .3s ease;
 }
+
 .c-nav-1--movil>li.active a, .c-nav-1>li.active a {
     padding: 9px 0;
     border-bottom: none;
