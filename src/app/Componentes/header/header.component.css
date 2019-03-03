@@ -1,0 +1,15 @@
+@media only screen and (min-width: 992px) {
+  .c-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: calc(100% - 300px);
+    padding: 0 20px;
+  }
+}
