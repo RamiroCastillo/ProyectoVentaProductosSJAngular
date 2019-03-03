@@ -3,6 +3,7 @@ a {
   text-decoration: none;
   color: #db251d;
 }
+
 .c-nav-1--movil>li:before, .c-nav-1>li:before {
   content: "";
   position: absolute;
@@ -44,10 +45,20 @@ a {
 }
 
 .c-nav-1--movil>li.active a, .c-nav-1>li.active a {
-    padding: 9px 0;
+    padding: 12px 0;
     border-bottom: none;
     font-weight: 500;
     color: #fff;
+}
+.c-nav-1--movil>li.active .icon-active, .c-nav-1>li.active .icon-active {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  right: -15px;
+  color: #fff;
+  font-size: 1.8rem;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .c-nav-1--movil>li>a, .c-nav-1>li>a {
     position: relative;
@@ -57,7 +68,7 @@ a {
     -ms-flex-align: center;
     align-items: center;
     width: 100%;
-    padding: 7px 0;
+    padding: 10.5px 0;
     border-bottom: 1px solid #d6dee3;
     font-size: 1.3rem;
     color: #333739;

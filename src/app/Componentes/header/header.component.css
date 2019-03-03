@@ -13,3 +13,39 @@
     padding: 0 20px;
   }
 }
+
+.c-header {
+  background: #6b130e;
+}
+
+
+.c-form-newsletter {
+    padding: 7px 0;
+}
+.c-form-newsletter__text-1 {
+    margin-right: 15px;
+    padding-bottom: 4px;
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 500;
+}
+.c-form-newsletter__btn {
+    height: 36px;
+}
+.o-btn-2 {
+    border-color: #ff8d21;
+    color: #ff8d21;
+}
+@media only screen and (min-width: 769px){
+	.c-form-newsletter__text-1 {
+		font-size: 1.8rem;
+	}
+}
+@media only screen and (min-width: 481px) {
+	.c-form-newsletter {
+	  display: -ms-flexbox;
+	  display: flex;
+	  -ms-flex-align: center;
+	  align-items: center;
+	}
+  }
