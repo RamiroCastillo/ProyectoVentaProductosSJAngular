@@ -7,16 +7,17 @@ import { OfertasComponent } from './Componentes/ofertas/ofertas.component';
 import { PuntosVentaComponent } from './Componentes/puntos-venta/puntos-venta.component';
 import { EventosComponent } from './Componentes/eventos/eventos.component';
 import { ContactosComponent } from './Componentes/contactos/contactos.component';
+import { HomeComponent } from './Componentes/home/home.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
+  { path: '', component: HomeComponent },
   { path: 'Productos', component: ProductoComponent },
   { path: 'Recetas', component: RecetasComponent },
   { path: 'Ofertas', component: OfertasComponent },
   { path: 'Puntos-de-Venta', component: PuntosVentaComponent },
   { path: 'Eventos', component: EventosComponent },
   { path: 'Contactos', component: ContactosComponent },
-  { path: '**', component: AppComponent }
+  //{ path: '**', component: AppComponent }
   //{ path: 'three/:id', component: PageThreeComponent },
 ];
 
