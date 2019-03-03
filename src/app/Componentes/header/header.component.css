@@ -34,11 +34,14 @@
 }
 .o-btn-2 {
     border-color: #ff8d21;
-    color: #ff8d21;
+    color: #ff8d21 !important;
+}
+.icon-der {
+  padding: 0 12px 4px 15px;
 }
 @media only screen and (min-width: 769px){
 	.c-form-newsletter__text-1 {
-		font-size: 1.8rem;
+		font-size: 1.2rem;
 	}
 }
 @media only screen and (min-width: 481px) {
