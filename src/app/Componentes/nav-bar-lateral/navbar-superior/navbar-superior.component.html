@@ -8,14 +8,31 @@
     </div>
     <nav class="c-block-1__nav">
       <ul class="c-nav-1">
-        <li class="active"> <a class="icon-home" routerLink="/"><span>Inicio</span></a> <i class="icon-active icon-keyboard_arrow_right1"></i>
+        <li [ngClass]="{'active': ready1}" (click)="onOff(1)"> <a class="icon-home" routerLink="/">
+            <span>Inicio</span></a>
+          <i class="icon-active icon-keyboard_arrow_right1" *ngIf="ready1"></i>
         </li>
-        <li class=""> <a class="icon-spoon-knife" routerLink="/Productos"><span>Productos</span></a> </li>
-        <li class=""> <a class="icon-receipt" routerLink="/Recetas"><span>Recetas</span></a> </li>
-        <li class=""> <a class="icon-price-tags" routerLink="/Ofertas"><span>Ofertas</span></a> </li>
-        <li class=""> <a class="icon-location" routerLink="/Puntos-de-Venta"><span>Puntos de venta</span></a> </li>
-        <li class=""> <a class="icon-rss" routerLink="/Eventos"><span>Eventos</span></a> </li>
-        <li class=""> <a class="icon-envelope1" routerLink="/Contactos"><span>Contacto</span></a> </li>
+        <li [ngClass]="{'active': !ready2}" (click)="onOff(2)"><a class="icon-spoon-knife" routerLink="/Productos">
+            <span>Productos</span></a>
+          <i class="icon-active icon-keyboard_arrow_right1" *ngIf="ready2==false"></i>
+        </li>
+        <li [ngClass]="{'active': !ready3}" (click)="onOff(3)"><a class="icon-receipt" routerLink="/Recetas">
+            <span>Recetas</span></a>
+          <i class="icon-active icon-keyboard_arrow_right1" *ngIf="ready3==false"></i>
+        </li>
+        <li [ngClass]="{'active': !ready4}" (click)="onOff(4)"> <a class="icon-price-tags" routerLink="/Ofertas">
+            <span>Ofertas</span></a>
+          <i class="icon-active icon-keyboard_arrow_right1" *ngIf="ready4==false"></i> </li>
+        <li [ngClass]="{'active': !ready5}" (click)="onOff(5)"> <a class="icon-location" routerLink="/Puntos-de-Venta">
+            <span>Puntos de venta</span></a>
+          <i class="icon-active icon-keyboard_arrow_right1" *ngIf="ready5==false"></i>
+        </li>
+        <li [ngClass]="{'active': !ready6}" (click)="onOff(6)"> <a class="icon-rss" routerLink="/Eventos">
+            <span>Eventos</span></a>
+          <i class="icon-active icon-keyboard_arrow_right1" *ngIf="ready6==false"></i> </li>
+        <li [ngClass]="{'active': !ready7}" (click)="onOff(7)"> <a class="icon-envelope1" routerLink="/Contactos">
+            <span>Contacto</span></a>
+          <i class="icon-active icon-keyboard_arrow_right1" *ngIf="ready7==false"></i> </li>
       </ul>
     </nav>
   </div>

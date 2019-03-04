@@ -25,11 +25,17 @@
     padding-top: 5px;
     font-size: 1.5rem;
 }
+.o-btn-1:hover, .o-btn-2:hover, .o-btn-3--v2:hover, .o-btn-3:hover, .o-btn-4:hover, .o-btn-5:hover, .o-btn--upload:hover, .o-btn-search:hover, .o-btn:hover {
+    background: #db251d;
+    color: #fff;
+}
+
 .c-form-newsletter__btn [class*=icon] {
     padding-top: 3px;
 }
+
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     border: 0;
     outline: 0;
@@ -41,7 +47,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 a {
     outline: none;
-    text-decoration: none;
+    text-decoration: none !important;
     color: #db251d;
 }
 body {
