@@ -20,35 +20,110 @@
 
 
 .c-form-newsletter {
-    padding: 7px 0;
+  padding: 7px 0;
 }
+
 .c-form-newsletter__text-1 {
-    margin-right: 15px;
-    padding-bottom: 4px;
-    font-size: 1.7rem;
-    color: #fff;
-    font-weight: 500;
+  margin-right: 15px;
+  padding-bottom: 4px;
+  font-size: 1.7rem;
+  color: #fff;
+  font-weight: 500;
 }
+
 .c-form-newsletter__btn {
-    height: 36px;
+  height: 36px;
 }
+
 .o-btn-2 {
-    border-color: #ff8d21;
-    color: #ff8d21 !important;
+  border-color: #ff8d21;
+  color: #ff8d21 !important;
+}
+.o-btn-2:hover {
+  background: #ff8d21 !important;
+}
+.c-nav-redes-header li {
+  margin-left: 10px;
+}
+.c-nav-redes-header{
+  margin-bottom: 0;
+}
+
+.o-btn-1:hover, .o-btn-2:hover, .o-btn-3--v2:hover, .o-btn-3:hover, .o-btn-4:hover, .o-btn-5:hover, .o-btn--upload:hover, .o-btn-search:hover, .o-btn:hover {
+  background: #db251d;
+  color: #fff !important;
+}
+a:focus, a:hover {
+  color: #991a14;
+}
+.c-nav-redes-header li a:hover {
+  color: #fff;
 }
 .icon-der {
   padding: 0 12px 4px 15px;
 }
-@media only screen and (min-width: 769px){
-	.c-form-newsletter__text-1 {
-		font-size: 1.2rem;
-	}
+.c-header__siguenos {
+  display: none;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  padding-right: 37px;
+  padding-left: 12px;
+  padding-bottom: 4px;
+  border-left: 1px solid #851711;
+  background: url(../../../assets/images/separador-flechas.812b582f60.svg) 100% 0 no-repeat;
+  background-size: 32px 100%;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 600;
 }
-@media only screen and (min-width: 481px) {
-	.c-form-newsletter {
-	  display: -ms-flexbox;
-	  display: flex;
-	  -ms-flex-align: center;
-	  align-items: center;
-	}
+.c-nav-redes-header li a {
+  color: #ff3930;
+  font-size: 1.5rem;
+  transition: all .3s ease;
+}
+
+.c-nav-redes-header li a span {
+  display: none;
+}
+/*------------*/
+.c-header__col-2, .c-header__nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
+@media only screen and (min-width: 769px) {
+  .c-form-newsletter__text-1 {
+    font-size: 1.2rem;
   }
+}
+
+@media only screen and (min-width: 481px) {
+  .c-form-newsletter {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .c-header__siguenos {
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.c-nav-redes-header {
+  display: none;
+}
+@media only screen and (min-width: 1200px){
+.c-nav-redes-header {
+    display: -ms-flexbox;
+    display: flex;
+}
+}
+
+
